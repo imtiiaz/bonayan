@@ -1,0 +1,189 @@
+@media (min-width: 1200px) {
+    header {}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /*=====headder=====*/
+    button.navbar-toggler:focus {
+        outline: 0;
+    }
+    .navbar-toggler i.fas.fa-bars {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 15px;
+        border-radius: 10px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        margin-bottom: 25px;
+    }
+    header .menu_icons {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    header .menu_icons ul {
+        text-align: center;
+    }
+    /*===banner=====*/
+    .banner_img {
+        background: url(../images/banner/banner-one.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 150px 0;
+        border-radius: 5px;
+        position: relative;
+        height: 700px;
+    }
+    #banner_part .banner_content {
+        background: rgba(118, 148, 23, 0.8);
+        border-radius: 10px;
+        position: absolute;
+        bottom: 180px;
+        left: 70px;
+        right: 140px;
+    }
+    /*======highlights======*/
+    #highlights .left .content {
+        padding-top: 10px;
+    }
+    #highlights .left .content p {
+        padding-top: 0;
+    }
+    #highlights .left .content .common_btn button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    /*=====success left======*/
+    #success .left {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #success .left .content {
+        padding-top: 0;
+    }
+    /*======video=====*/
+    #video {
+        padding-bottom: 40px;
+    }
+    #video .left .content {
+        padding-top: 10px;
+    }
+    #video .left .content p {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    /*=====header=====*/
+    button.navbar-toggler:focus {
+        outline: 0;
+    }
+    .navbar-toggler i.fas.fa-bars {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 15px;
+        border-radius: 10px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        margin-bottom: 25px;
+    }
+    header .menu_icons {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    header .menu_icons ul {
+        text-align: center;
+    }
+    /*======banner=====*/
+    .banner_img {
+        height: 650px;
+    }
+    #banner_part .banner_content {
+        bottom: 200px;
+        left: 25px;
+        right: 25px;
+    }
+    #banner_part .banner_content h3 {
+        font-size: 24px;
+    }
+    /*======highlights=====*/
+    #highlights .left .content .common_btn button {
+        margin-bottom: 20px;
+    }
+    /*====success=====*/
+    #success .left {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #success .left .content {
+        padding-top: 0;
+    }
+    /*=====video=====*/
+    #video {
+        padding-bottom: 40px;
+    }
+    #video .left .content p {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 575px) {
+    /*=====header=====*/
+    header {
+        padding: 10px 10px;
+        background: #122837;
+    }
+    header a img {
+        max-width: 60px;
+    }
+    button.navbar-toggler:focus {
+        outline: 0;
+    }
+    .navbar-toggler i.fas.fa-bars {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 15px;
+        border-radius: 10px;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        margin-bottom: 25px;
+    }
+    header .menu_icons {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    header .menu_icons ul {
+        text-align: center;
+    }
+    /*======banner=====*/
+    .banner_img {
+        height: 550px;
+    }
+    #banner_part .banner_content {
+        bottom: 160px;
+        left: 25px;
+        right: 25px;
+    }
+    #banner_part .banner_content h3 {
+        font-size: 24px;
+    }
+    /*======highlights=====*/
+    #highlights .left .content .common_btn button {
+        margin-bottom: 20px;
+    }
+    /*====success=====*/
+    #success .left {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #success .left .content {
+        padding-top: 0;
+    }
+    /*=====video=====*/
+    #video {
+        padding-bottom: 40px;
+    }
+    #video .left .content p {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
