@@ -45,7 +45,7 @@ $(function () {
     // banner slider
 $('.banner_slider').slick({
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     speed: 800,
     autoplaySpeed: 1000,
     slidesToShow: 1,
